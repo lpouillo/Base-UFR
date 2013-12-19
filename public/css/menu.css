@@ -1,0 +1,70 @@
+/* CSS du menu */
+#menu h2 {
+	color:white;
+	background-color: #005959;
+	border:1px solid #005959;
+	padding-left:5px;
+	padding-top:0px;
+	padding-bottom:0px;
+	font-size:13px;
+	cursor:pointer;
+}
+
+#menu h2:hover, #menu h2:hover a {
+	background-color:white;
+	color: #005959;
+}
+
+#menu h2:hover {
+	color:#005959;
+	background-color:white;
+}
+#menu h2 a {
+	color:white;
+	text-decoration:none;
+	font-size:13px;
+}
+#menu h2 a:hover, #menu h2:hover a {
+	color:#005959;
+	text-decoration:none;
+}
+#menu ul {
+	padding-top:3px;
+	padding-left:7px;
+	padding-right:2px;
+	padding-bottom:3px;
+	font-size:12px;
+}
+#menu li {
+	height:16px;
+	cursor:pointer;	
+	font-size:11px;
+}
+#menu li:hover {
+	background-color:#bbe7e7;
+}
+#menu li.smenu:hover {
+	height:16px;
+}
+.menu_input_text {
+	width:80px;
+	font-size:10px;
+	margin-left:5px;
+}
+.menu_bouton_ok {
+	font-size:10px;
+	width:26px;
+}
+
+#menu ul ul {
+	position:relative;
+	top: -15px;
+	left: 150px;
+	display:none;
+}
+
+
+#small_select {
+	font-size:10px;
+	max-width:140px;
+}
