@@ -5,13 +5,13 @@
  * 
  */
 // Serveur LDAP
-$ldap_server="ldapwebslave.ipgp.fr";
+$ldap_server="";
 
 // Base de données MySQL
 $db_host="localhost";
-$db_user="base_ufr";
+$db_user="";
 $db_password="";
-$db_name="base_ufr";
+$db_name="";
 
 // Fuseau horaire
 date_default_timezone_set('Europe/Paris');
@@ -19,7 +19,7 @@ date_default_timezone_set('Europe/Paris');
 // Wikis
 
 // Année
-$annee=2009;
+$annee=2013;
 $id_annee_scolaire=10;
 
 
